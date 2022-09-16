@@ -1,0 +1,17 @@
+{
+    "source": ["tokens-raw.json"],
+    "platforms": {
+      "css": {
+        "transformGroup": "css",
+        "prefix" : "token",
+        "buildPath": "build/",
+        "files": [{
+          "destination": "css-vars.css",
+          "format": "css/variables",
+          "options": {
+            "outputReferences": true
+          }
+        }]
+      }
+    }
+  }

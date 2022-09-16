@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "prepare" : "token-transformer tokens.json tokens-raw.json",
+    "build": "style-dictionary build"
+  },
+  
+  "devDependencies": {
+    "style-dictionary": "^3.7.1",
+    "token-transformer": "^0.0.27"
+  }
+}
