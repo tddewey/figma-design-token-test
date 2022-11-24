@@ -3,7 +3,7 @@
     "platforms": {
       "css": {
         "transformGroup": "css",
-        "prefix" : "token",
+        "prefix" : "uni",
         "buildPath": "build/",
         "files": [{
           "destination": "css-vars.css",

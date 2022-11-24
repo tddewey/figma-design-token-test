@@ -1,50 +1,17 @@
 /**
  * Do not edit directly
- * Generated on Fri, 16 Sep 2022 18:54:09 GMT
+ * Generated on Thu, 24 Nov 2022 01:04:26 GMT
  */
 
 :root {
-  --token-demo: #00ff00;
-  --token-new-utility-warning-25: #806600;
-  --token-new-utility-success: #3d7a1f;
-  --token-new-utility-info-bg: #edf2f7;
-  --token-new-utility-success-bg: #f1f7ed;
-  --token-new-utility-warning-bg: #f9f6ec;
-  --token-new-utility-destructive-bg: #f7eded;
-  --token-new-utility-information: #2968a3;
-  --token-new-utility-warning: #facc15;
-  --token-new-utility-destructive: #b8322e;
-  --token-new-purple-40: #ad1f7b;
-  --token-new-purple-30: #82175d;
-  --token-new-purple-50: #cc3396;
-  --token-new-teal-10: #00332c;
-  --token-new-teal-30: #178274;
-  --token-new-teal-50: #33ccb8;
-  --token-new-teal-90: #d9f2ef;
-  --token-new-teal-95: #edf7f6;
-  --token-new-slate-blue-10: #002533;
-  --token-new-slate-blue-30: #166483;
-  --token-new-slate-blue-35: #23718f;
-  --token-new-slate-blue-50: #32a1cd;
-  --token-new-slate-blue-70: #84c7e1;
-  --token-new-slate-blue-90: #d8ebf3;
-  --token-new-slate-blue-95: #edf5f7;
-  --token-new-bright-blue-10: #001a33;
-  --token-new-bright-blue-30: #154e84;
-  --token-new-bright-blue-40: #2668a6;
-  --token-new-bright-blue-50: #2a75bb;
-  --token-new-bright-blue-90: #d8e6f3;
-  --token-new-bright-blue-95: #edf2f8;
-  --token-uni-gray-950: #0c0c0e;
-  --token-uni-gray-900: #17191c;
-  --token-uni-gray-800: #2e3238;
-  --token-uni-gray-700: #464a53;
-  --token-uni-gray-600: #5d636f;
-  --token-uni-gray-500: #747c8b;
-  --token-uni-gray-400: #9096a2;
-  --token-uni-gray-300: #acb0b9;
-  --token-uni-gray-200: #c7cbd1;
-  --token-uni-gray-100: #e3e5e8;
-  --token-uni-gray-50: #f1f2f3;
-  --token-token-set-order-0: global;
+  --uni-color-utility-warning: #facc15;
+  --uni-color-utility-destructive-100: #b8322e;
+  --uni-color-utility-destructive-50: #f7eded;
+  --uni-color-secondary-gray-300: #acb0b9;
+  --uni-color-secondary-gray-50: #f1f2f3;
+  --uni-color-logo-2: #db3c4a;
+  --uni-color-logo-1: #1d3557;
+  --uni-token-set-order-2: uni-semantic;
+  --uni-token-set-order-1: uni-core;
+  --uni-token-set-order-0: global;
 }

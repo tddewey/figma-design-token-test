@@ -1,7 +1,7 @@
 {
   "scripts": {
     "prepare" : "token-transformer tokens.json tokens-prepared.json",
-    "build": "style-dictionary build"
+    "build": "npm run prepare && style-dictionary build"
   },
   
   "devDependencies": {
