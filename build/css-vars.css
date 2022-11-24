@@ -1,9 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Fri, 16 Sep 2022 18:10:20 GMT
+ * Generated on Fri, 16 Sep 2022 18:54:09 GMT
  */
 
 :root {
+  --token-demo: #00ff00;
   --token-new-utility-warning-25: #806600;
   --token-new-utility-success: #3d7a1f;
   --token-new-utility-info-bg: #edf2f7;

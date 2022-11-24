@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "prepare" : "token-transformer tokens.json tokens-raw.json",
+    "prepare" : "token-transformer tokens.json tokens-prepared.json",
     "build": "style-dictionary build"
   },
   
