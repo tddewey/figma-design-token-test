@@ -35,9 +35,17 @@
         "$type": "color",
         "$value": "{base.black}"
       },
+      "primary-dark": {
+        "$type": "color",
+        "$value": "{base.white}"
+      },
       "secondary": {
         "$type": "color",
         "$value": "{base.white}"
+      },
+      "secondary-dark": {
+        "$type": "color",
+        "$value": "{base.black}"
       },
       "tertiary": {
         "$type": "color",
@@ -46,6 +54,34 @@
       "tertiary-dark": {
         "$type": "color",
         "$value": "{base.saphhire}"
+      }
+    },
+    "button": {
+      "primary": {
+        "$type": "color",
+        "$value": "{base.saphhire}"
+      },
+      "primary-dark": {
+        "$type": "color",
+        "$value": "{base.saphhire}"
+      }
+    },
+    "general": {
+      "color-1": {
+        "$type": "color",
+        "$value": "{base.white}"
+      },
+      "color-1-dark": {
+        "$type": "color",
+        "$value": "{base.midnight}"
+      },
+      "color-2": {
+        "$type": "color",
+        "$value": "{base.midnight}"
+      },
+      "color-2-dark": {
+        "$type": "color",
+        "$value": "{base.white}"
       }
     }
   },
