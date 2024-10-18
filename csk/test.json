@@ -1,5 +1,54 @@
 {
-  "global": {},
+  "global": {
+    "base": {
+      "black": {
+        "$type": "color",
+        "$value": "#000000"
+      },
+      "white": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "saphhire": {
+        "$type": "color",
+        "$value": "#0052ed"
+      },
+      "midnight": {
+        "$type": "color",
+        "$value": "#041142"
+      },
+      "blaze": {
+        "$type": "color",
+        "$value": "#ed8e00"
+      },
+      "walnut": {
+        "$type": "color",
+        "$value": "#462a00"
+      }
+    },
+    "text": {
+      "primary": {
+        "dark": {
+          "$type": "color",
+          "$value": "{base.white}"
+        },
+        "$type": "color",
+        "$value": "{base.black}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{base.white}"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{base.saphhire}"
+      },
+      "tertiary-dark": {
+        "$type": "color",
+        "$value": "{base.saphhire}"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
