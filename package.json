@@ -1,11 +1,13 @@
 {
   "scripts": {
-    "prepare" : "token-transformer tokens.json tokens-prepared.json",
-    "build": "npm run prepare && style-dictionary build"
+    "prepare": "token-transformer tokens.json tokens-prepared.json",
+    "build": "npm run prepare && style-dictionary build",
+    "build-csk" : "node csk/sd-build.js --config csk/sd-build.js"
   },
-  
+  "type" : "module",
   "devDependencies": {
-    "style-dictionary": "^3.7.1",
-    "token-transformer": "^0.0.27"
+    "style-dictionary": "^4.1.3",
+    "token-transformer": "^0.0.33",
+    "@tokens-studio/sd-transforms": "^1.2.5"
   }
 }
