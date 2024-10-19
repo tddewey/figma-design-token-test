@@ -1,0 +1,25 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --utility-error: #d82929;
+  --base-walnut: #462a00;
+  --base-blaze: #ed8e00;
+  --base-midnight: #041142;
+  --base-saphhire: #0052ed;
+  --base-white: #ffffff;
+  --base-black: #000000;
+  --general-color-2-dark: var(--base-white);
+  --general-color-2: var(--base-midnight);
+  --general-color-1-dark: var(--base-midnight);
+  --general-color-1: var(--base-white);
+  --button-primary-dark: var(--base-saphhire);
+  --button-primary: var(--base-saphhire);
+  --text-tertiary-dark: var(--base-saphhire);
+  --text-tertiary: var(--base-saphhire);
+  --text-secondary-dark: var(--base-black);
+  --text-secondary: var(--base-white);
+  --text-primary-dark: var(--base-white);
+  --text-primary: var(--base-black);
+}

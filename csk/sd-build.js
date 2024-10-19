@@ -3,7 +3,9 @@ import StyleDictionary from 'style-dictionary';
 
 // will register them on StyleDictionary object
 // that is installed as a dependency of this package.
-register(StyleDictionary);
+register(StyleDictionary, {
+    excludeParentKeys: true // needs to be false for multi file mode, perhaps?
+});
 
 const sd = new StyleDictionary({
   // make sure to have source match your token files!
@@ -19,6 +21,9 @@ const sd = new StyleDictionary({
         {
           destination: 'token.css',
           format: 'css/variables',
+          options: {
+            outputReferences: true
+          }
         },
       ],
     },
