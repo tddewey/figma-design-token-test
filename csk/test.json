@@ -59,7 +59,7 @@
     "button": {
       "primary": {
         "$type": "color",
-        "$value": "{base.saphhire}"
+        "$value": "{base.blaze}"
       },
       "primary-dark": {
         "$type": "color",
@@ -85,10 +85,99 @@
       }
     }
   },
+  "global/global": {
+    "base": {
+      "black": {
+        "$type": "color",
+        "$value": "#000000"
+      },
+      "white": {
+        "$type": "color",
+        "$value": "#ffffff"
+      },
+      "saphhire": {
+        "$type": "color",
+        "$value": "#0052ed"
+      },
+      "midnight": {
+        "$type": "color",
+        "$value": "#041142"
+      },
+      "blaze": {
+        "$type": "color",
+        "$value": "#ed8e00"
+      },
+      "walnut": {
+        "$type": "color",
+        "$value": "#462a00"
+      }
+    },
+    "text": {
+      "primary": {
+        "$type": "color",
+        "$value": "{base.black}"
+      },
+      "primary-dark": {
+        "$type": "color",
+        "$value": "{base.white}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{base.white}"
+      },
+      "secondary-dark": {
+        "$type": "color",
+        "$value": "{base.black}"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{base.saphhire}"
+      },
+      "tertiary-dark": {
+        "$type": "color",
+        "$value": "{base.saphhire}"
+      }
+    },
+    "button": {
+      "primary": {
+        "$type": "color",
+        "$value": "{base.saphhire}"
+      },
+      "primary-dark": {
+        "$type": "color",
+        "$value": "{base.saphhire}"
+      }
+    },
+    "general": {
+      "color-1": {
+        "$type": "color",
+        "$value": "{base.white}"
+      },
+      "color-1-dark": {
+        "$type": "color",
+        "$value": "{base.midnight}"
+      },
+      "color-2": {
+        "$type": "color",
+        "$value": "{base.midnight}"
+      },
+      "color-2-dark": {
+        "$type": "color",
+        "$value": "{base.white}"
+      }
+    },
+    "utility": {
+      "error": {
+        "$type": "color",
+        "$value": "#d82929"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global"
+      "global",
+      "global/global"
     ]
   }
 }
