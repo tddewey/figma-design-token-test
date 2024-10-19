@@ -59,11 +59,11 @@
     "button": {
       "primary": {
         "$type": "color",
-        "$value": "{base.saphhire}"
+        "$value": "{base.blaze}"
       },
       "primary-dark": {
         "$type": "color",
-        "$value": "{base.saphhire}"
+        "$value": "{base.walnut}"
       }
     },
     "general": {
