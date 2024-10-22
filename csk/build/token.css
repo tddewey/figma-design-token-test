@@ -3,7 +3,8 @@
  */
 
 :root {
-  --utility-error: #d82929;
+  --text-biscuit: #00ff00;
+  --text-primary: #00ff00;
   --base-walnut: #462a00;
   --base-blaze: #ed8e00;
   --base-midnight: #041142;
@@ -15,11 +16,10 @@
   --general-color-1-dark: var(--base-midnight);
   --general-color-1: var(--base-white);
   --button-primary-dark: var(--base-saphhire);
-  --button-primary: var(--base-saphhire);
+  --button-primary: var(--base-blaze);
   --text-tertiary-dark: var(--base-saphhire);
   --text-tertiary: var(--base-saphhire);
   --text-secondary-dark: var(--base-black);
   --text-secondary: var(--base-white);
   --text-primary-dark: var(--base-white);
-  --text-primary: var(--base-black);
 }

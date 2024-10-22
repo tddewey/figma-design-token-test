@@ -1,0 +1,66 @@
+{
+  "override": {
+    "text": {
+      "primary": {
+        "dark": {
+          "$type": "color",
+          "$value": "{base.black}"
+        },
+        "$type": "color",
+        "$value": "#00ff00"
+      },
+      "biscuit" : {
+        "$type" : "color",
+        "$value" : "#00ff00"
+      },
+      "primary-dark": {
+        "$type": "color",
+        "$value": "{base.white}"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{base.white}"
+      },
+      "secondary-dark": {
+        "$type": "color",
+        "$value": "{base.black}"
+      },
+      "tertiary": {
+        "$type": "color",
+        "$value": "{base.saphhire}"
+      },
+      "tertiary-dark": {
+        "$type": "color",
+        "$value": "{base.saphhire}"
+      }
+    },
+    "button": {
+      "primary": {
+        "$type": "color",
+        "$value": "{base.blaze}"
+      },
+      "primary-dark": {
+        "$type": "color",
+        "$value": "{base.saphhire}"
+      }
+    },
+    "general": {
+      "color-1": {
+        "$type": "color",
+        "$value": "{base.white}"
+      },
+      "color-1-dark": {
+        "$type": "color",
+        "$value": "{base.midnight}"
+      },
+      "color-2": {
+        "$type": "color",
+        "$value": "{base.midnight}"
+      },
+      "color-2-dark": {
+        "$type": "color",
+        "$value": "{base.white}"
+      }
+    }
+  }
+}

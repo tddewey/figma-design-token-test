@@ -10,7 +10,8 @@ register(StyleDictionary, {
 const sd = new StyleDictionary({
   // make sure to have source match your token files!
   // be careful about accidentally matching your package.json or similar files that are not tokens
-  source: ['csk/test.json'],
+  source: ['csk/test.json', 'csk/test-copy.json'],
+  log: {"verbosity" : "verbose"},
   preprocessors: ['tokens-studio'], // <-- since 0.16.0 this must be explicit
   platforms: {
     css: {
@@ -22,6 +23,7 @@ const sd = new StyleDictionary({
           destination: 'token.css',
           format: 'css/variables',
           options: {
+            showFileHeader: true,
             outputReferences: true
           }
         },
